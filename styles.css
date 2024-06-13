@@ -1,0 +1,38 @@
+/* Combine both Kurdis fonts */
+@font-face {
+    font-family: 'Kurdis - Extra Bold'; /* Use a single family name */
+    src: url('fonts/kurdis/Kurdis - Extra Bold.otf') format('opentype');
+}
+
+/* Combine both Kurdis fonts */
+@font-face {
+    font-family: 'Kurdis - Extra Wide'; /* Use a single family name */
+    src: url('fonts/kurdis/Kurdis - Extra Wide.otf') format('opentype'),
+}
+
+/* custom colors */
+:root {
+    --black: #1E1E1E;
+    --green: #32CD32;
+    --blue: #0047FF;
+    --orange: #FF5C00;
+    --white: #FFF6F3;
+    --gray: #2b2b2b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--black);
+}
+
+h1 {
+    font-family: 'Kurdis - Extra Wide';
+    font-weight: bold;
+    color: var(--white);
+}
